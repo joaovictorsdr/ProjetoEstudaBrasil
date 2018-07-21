@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+header{
+    text-align: center;
+}
+header img{
+    width: 200px;
+    position: absolute;
+    left: 10px;
+}
+#botons{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#botons button{
+    background-color: lightseagreen;
+    width: 100px;
+    padding: 10px;
+}
+nav{
+    margin-top: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+section{
+    margin: 30px auto;
+    width: 75vw;
+}
+.parceiros img{
+    width: 150px;
+    padding: 0 50px;
+}
+footer{
+    border-top: solid 3px #333;
+}
+footer img{
+    width: 250px;
+    float: left;
+    margin-right: 300px;
+    
+}
+h1{
+    font-size: 85px; 
+}
